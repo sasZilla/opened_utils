@@ -7,8 +7,8 @@
 ###
 `import request from 'ic-ajax'`
 `import Ember from 'ember'`
-`import config from 'ccquest/config/environment'`
-`import ProvidersClassList from 'ccquest/utils/session/providers-list'`
+`import config from '../../config/environment'`
+`import ProvidersClassList from '../../utils/session/providers-list'`
 
 
 Session = Ember.Object.extend Ember.Evented,

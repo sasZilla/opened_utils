@@ -5,9 +5,9 @@
 ###
 
 `import Ember from 'ember'`
-`import config from 'ccquest/config/environment'`
+`import config from '../config/environment'`
 `import request from 'ic-ajax'`
-`import Intervals from 'ccquest/utils/intervals'`
+`import Intervals from '../utils/intervals'`
 
 intervals = Intervals.create()
 

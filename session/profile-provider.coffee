@@ -1,4 +1,4 @@
-`import Provider from 'ccquest/utils/session/provider'`
+`import Provider from '../../utils/session/provider'`
 `import Ember from 'ember'`
 
 ProfileProvider = Provider.extend

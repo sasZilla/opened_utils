@@ -1,8 +1,8 @@
 ### global FB ###
-`import Provider from 'ccquest/utils/session/provider'`
+`import Provider from '../../utils/session/provider'`
 `import Ember from 'ember'`
-`import loadScript from 'ccquest/utils/load-scripts'`
-`import config from 'ccquest/config/environment'`
+`import loadScript from '../../utils/load-scripts'`
+`import config from '../../config/environment'`
 
 FacebookProvider = Provider.extend
 

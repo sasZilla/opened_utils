@@ -1,6 +1,6 @@
 `import request from 'ic-ajax'`
 `import Ember from 'ember'`
-`import config from 'ccquest/config/environment'`
+`import config from '../config/environment'`
 
 regExp = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
 

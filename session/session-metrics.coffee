@@ -1,5 +1,5 @@
 `import Ember from 'ember'`
-`import gaHelper from 'ccquest/utils/gahelper'`
+`import gaHelper from '../../utils/gahelper'`
 
 SessionMetrics = Ember.Object.extend
 

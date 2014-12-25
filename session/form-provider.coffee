@@ -1,6 +1,6 @@
-`import Provider from 'ccquest/utils/session/provider'`
+`import Provider from '../../utils/session/provider'`
 `import Ember from 'ember'`
-`import emailValidation from 'ccquest/utils/email-validation'`
+`import emailValidation from '../../utils/email-validation'`
 
 FormProvider = Provider.extend
 

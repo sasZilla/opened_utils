@@ -2,7 +2,7 @@
 #iOS Native application use file: protocol
 #In native applications we use android or ios Facebook SDK wrapped by Rho extension
 
-`import Provider from 'ccquest/utils/session/provider'`
+`import Provider from '../../utils/session/provider'`
 `import Ember from 'ember'`
 
 FacebookNativeProvider = Provider.extend
