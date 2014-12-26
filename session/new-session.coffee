@@ -69,9 +69,10 @@ Session = Ember.Object.extend Ember.Evented,
         .always =>
           @set('currProvider', null)
           @set('isLoading', false)
-          result.resolve()
+          @set('currUser', null)
           Ember.run.next ->
             window.location = url
+            result.resolve()
       @_removeLocalStorageInfo()
     else
       result.resolve()
